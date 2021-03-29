@@ -6,12 +6,7 @@ class MahasiswaController extends Controller
 {
  /**
  * Display a listing of the resource.
- *
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MahasiswaController;
-use Illuminate\Http\Request;
-Route::resource('mahasiswa', MahasiswaController::class);
- * @return \Illuminate\Http\Response
+ * @return \Illuminate\Http\Response;
  */
  public function index()
  {
